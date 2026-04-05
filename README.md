@@ -2,8 +2,6 @@
 
 **Course / batch repository** for the Rehab360 platform — a full-stack application for addiction recovery support.
 
-**Related upstream (deployment-ready reference):** [github.com/Abhinay25670/Rehab360-Project](https://github.com/Abhinay25670/Rehab360-Project)
-
 **Live site:** [rehablabs.in](https://rehablabs.in)
 
 ---
@@ -261,17 +259,3 @@ Cold starts and free-tier quotas apply on hosted providers.
 - **Chat / sockets fail** — API host must match `VITE_SOCKET_URL` / `VITE_API_URL`.
 - **Clerk loops** — Add all dev and prod URLs to Clerk’s allowed origins and redirects.
 - **ML features** — Deploy `ml/` and set `VITE_ML_API_URL`; check `CRAVING_API_URL` inside ML env for production paths.
-
----
-
-## Contributing
-
-1. Fork or branch from this repo
-2. Keep commits focused; match existing code style
-3. Open a pull request with a short description of behavior changes
-
----
-
-## License
-
-MIT
